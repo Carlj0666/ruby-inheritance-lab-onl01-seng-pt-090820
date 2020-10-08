@@ -10,4 +10,8 @@ class Student < User
     @knowledge << string_of_knowledge
   end
 
+  def knowledge
+    return @knowledge  
+  end
+
 end
